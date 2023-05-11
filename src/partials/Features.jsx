@@ -1,8 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesBg from '../images/features-bg.png';
-import FeaturesElement from '../images/features-element.png';
+import Bg1 from '../images/Static-page.png';
+import Bg2 from '../images/Onboarding.png';
+import Bg3 from '../images/Dashboard.png';
+import Bg4 from '../images/Resume.png';
+import Bg5 from '../images/Projects.png';
 
 function Features() {
 
@@ -54,8 +57,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Static Pages For Prospective Students</div>
+                    <div className="text-gray-600">Prospective learners and partners  can learn about Smash and how to get started through the Home, About Us, Student Guide, Industry pages and more. </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +72,9 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Onboarding and Surveys</div>
+                    <div className="text-gray-600">To sign up, users can easily register and create an account to start their Smash journey.
+                                                  With every log in, users are welcomed with short surveys that are used to update their information and personalize their experience.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -84,8 +88,38 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Dashboard</div>
+                    <div className="text-gray-600">To track learning progress and achievements, the dashboard is an engaging way for users to view their performance.</div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
+                    </svg>
+                  </div>
+                </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(4); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Resume</div>
+                    <div className="text-gray-600">Users can record their accomplishments and apply to projects with the auto-filled resume that retrieves information from surveys.</div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
+                    </svg>
+                  </div>
+                </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(5); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Projects</div>
+                    <div className="text-gray-600">Users can browse and filter through new static and live projects. Applying is made simple by sending the user’s resume straight to the project sponsor. </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -111,9 +145,8 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  <div className="relative inline-flex flex-col mt-20 pt-20">
+                    <img className="md:max-w-none mx-auto rounded" src={Bg1} width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -128,9 +161,8 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  <div className="relative inline-flex flex-col mt-20 pt-40">
+                    <img className="md:max-w-none mx-auto rounded" src={Bg2} width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -145,9 +177,40 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  <div className="relative inline-flex flex-col mt-20 pt-52">
+                    <img className="md:max-w-none mx-auto rounded" src={Bg3} width="500" height="462" alt="Features bg" />
+                  </div>
+                </Transition>
+                {/* Item 4 */}
+                <Transition
+                  show={tab === 4}
+                  appear={true}
+                  className="w-full"
+                  enter="transition ease-in-out duration-700 transform order-first"
+                  enterStart="opacity-0 translate-y-16"
+                  enterEnd="opacity-100 translate-y-0"
+                  leave="transition ease-in-out duration-300 transform absolute"
+                  leaveStart="opacity-100 translate-y-0"
+                  leaveEnd="opacity-0 -translate-y-16"
+                >
+                  <div className="relative inline-flex flex-col mt-20 pt-60">
+                    <img className="md:max-w-none mx-auto rounded" src={Bg4} width="500" height="462" alt="Features bg" />
+                  </div>
+                </Transition>
+                {/* Item 5 */}
+                <Transition
+                  show={tab === 5}
+                  appear={true}
+                  className="w-full"
+                  enter="transition ease-in-out duration-700 transform order-first"
+                  enterStart="opacity-0 translate-y-16"
+                  enterEnd="opacity-100 translate-y-0"
+                  leave="transition ease-in-out duration-300 transform absolute"
+                  leaveStart="opacity-100 translate-y-0"
+                  leaveEnd="opacity-0 -translate-y-16"
+                >
+                  <div className="relative inline-flex flex-col mt-20 pt-64">
+                    <img className="md:max-w-none mx-auto rounded" src={Bg5} width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
               </div>
