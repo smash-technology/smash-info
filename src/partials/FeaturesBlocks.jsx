@@ -13,11 +13,11 @@ function FeaturesBlocks() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4 text-white">How smash works</h2>
+            <h2 className="h2 mb-4 text-white">How Smash works</h2>
             <p className="text-xl text-gray-400">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-              cupidatat.
+              Smash is revolutionizing the way motivated learners with
+              non-traditional backgrounds attain the skills needed for a lasting
+              career in the tech industry
             </p>
           </div>
 
@@ -63,11 +63,12 @@ function FeaturesBlocks() {
                 Challenge
               </h4>
               <p className="text-gray-600 text-center">
-                Breaking into tech is tough due to expensive traditional
-                education and high costs associated with switching careers.
-                Attaining a four-year college degree can cost up to $70,000 and
-                learning technology skills costs $38,507 on average, compared to
-                $15,715 for other industries.
+                Breaking into tech is notoriously difficult, especially without{" "}
+                <b>a 4-year degree in computer science</b> (or other related
+                tech degrees) or when <b>switching careers</b> from a different
+                field. Attaining a 4-year college degree can cost up to $70,000
+                and learning technology skills costs $38,507 on average,
+                compared to the average $15,715 for other industries.
               </p>
             </div>
 
@@ -111,9 +112,10 @@ function FeaturesBlocks() {
                 Our platform is a free project-based learning and apprenticeship
                 solution that provides students with valuable hands-on
                 experience, along with career and networking opportunities. By
-                focusing on real-world skills and industry-relevant projects,
-                our platform offers a unique and immersive learning experience
-                that prepares students for success in their chosen fields.
+                focusing on <b>real-world skills</b> and{" "}
+                <b>industry-relevant projects</b>, our platform offers a unique
+                and immersive learning experience that prepares students for
+                success in their chosen field.
               </p>
             </div>
 

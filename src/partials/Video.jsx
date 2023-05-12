@@ -12,7 +12,7 @@ function Video() {
   }, [videoModalOpen]);
 
   return (
-    <div className="mt-32 mb-8">
+    <div className="my-28">
       <div
         className="relative flex justify-center mb-8"
         data-aos="zoom-y-out"

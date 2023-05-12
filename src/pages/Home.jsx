@@ -20,10 +20,10 @@ function Home() {
       <main className="flex-grow">
         {/*  Page sections */}
         <HeroHome />
+        <Testimonials />
         <FeaturesBlocks />
         <FeaturesHome />
         <Video />
-        <Testimonials />
       </main>
 
       {/* <Banner /> */}
