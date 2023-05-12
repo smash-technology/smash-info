@@ -13,6 +13,7 @@ function Video() {
 
   return (
     <div className="my-28">
+      <h2 className="text-bold h2 mb-6 text-center">Platform demo</h2>
       <div
         className="relative flex justify-center mb-8"
         data-aos="zoom-y-out"

@@ -16,20 +16,6 @@ function Testimonials() {
         <div className="py-12 md:pt-8 md:pb-32">
           {/* Section header */}
           <div
-            className="max-w-3xl mx-auto text-center pb-36"
-            data-aos="zoom-y-out"
-            data-aos-delay="300"
-          >
-            <h2 className="text-bold h2 mb-4">Project sponsor</h2>
-            <img className="w-60 mx-auto" src={smash} alt="logo" />
-            <p className="text-lg mt-3 leading-7">
-              &quot;Smash provides in-demand technology skills to a range of
-              learners before they have completed formal schooling, thus
-              enabling them to embark into industry and earn professional wages
-              immediately upon completion.&quot;
-            </p>
-          </div>
-          <div
             className="max-w-3xl mx-auto text-center pb-12 md:pb-16"
             data-aos="zoom-y-out"
             data-aos-delay="300"
@@ -86,6 +72,21 @@ function Testimonials() {
               src={Tmobile}
               alt="microsoft logo"
             />
+          </div>
+
+          <div
+            className="max-w-3xl mx-auto text-center pt-36"
+            data-aos="zoom-y-out"
+            data-aos-delay="300"
+          >
+            <h2 className="text-bold h2 mb-4">Project sponsor</h2>
+            <img className="w-60 mx-auto" src={smash} alt="logo" />
+            <p className="text-lg mt-3 leading-7">
+              &quot;Smash provides in-demand technology skills to a range of
+              learners before they have completed formal schooling, thus
+              enabling them to embark into industry and earn professional wages
+              immediately upon completion.&quot;
+            </p>
           </div>
         </div>
       </div>

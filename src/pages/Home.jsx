@@ -9,6 +9,7 @@ import Newsletter from "../partials/Newsletter";
 import Footer from "../partials/Footer";
 import Banner from "../partials/Banner";
 import Video from "../partials/Video";
+import Team from "../partials/Team";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
         <FeaturesBlocks />
         <FeaturesHome />
         <Video />
+        <Team />
       </main>
 
       {/* <Banner /> */}
