@@ -11,7 +11,11 @@ function Team() {
   return (
     <section className="max-w-6xl mx-auto mt-40 px-4 sm:px-6">
       <h2 className="text-bold h2 mb-6 text-center">Meet the team</h2>
-      <div className="flex flex-wrap justify-around">
+      <div
+        className="flex flex-wrap justify-around"
+        data-aos="zoom-y-out"
+        data-aos-delay="300"
+      >
         <TeamMember>
           <img src={Vianne} alt="vianne" />
           <h3>Vianne Bui Nguyen</h3>
@@ -105,10 +109,10 @@ const TeamMember = styled.div`
 
   small {
     display: block;
-    margin-bottom: .45rem;
+    margin-bottom: 0.45rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: .85rem;
+    font-size: 0.85rem;
     font-weight: 600;
   }
 

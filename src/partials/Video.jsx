@@ -29,7 +29,7 @@ function Video() {
           />
         </div>
         <button
-          className="absolute top-full flex items-center transform -translate-y-1/2 bg-indigo-500 rounded-full font-medium text-white group p-4 shadow-lg"
+          className="absolute top-full flex items-center transform -translate-y-1/2 bg-slate-900 rounded-full font-medium text-white group p-4 shadow-lg"
           onClick={(e) => {
             e.preventDefault();
             e.stopPropagation();
