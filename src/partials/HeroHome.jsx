@@ -1,23 +1,25 @@
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 
 import TeamImage from "../images/team-image.png";
 import { PrimaryPurple } from "./PrimaryPurple";
 import ArrowEast from "./ArrowEast";
+import styled from "styled-components";
 
 function HeroHome() {
   return (
     <section className="relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div
+        className="max-w-6xl mx-auto px-4 sm:px-6"
+        data-aos="zoom-y-out"
+        data-aos-delay="300"
+      >
         {/* Hero content */}
-        <div className="pt-24 pb-12 md:pt-40 md:pb-20 flex items-center">
+        <Heading className="pt-24 pb-32 md:pt-32 md:pb-20 flex items-center">
           {/* Section header */}
           <div>
-            <h1
-              className="mb-16 text-5.5xl md:text-5xl font-extrabold leading-tighter"
-              data-aos="zoom-y-out"
-            >
-              Building career pathways in tech through real-world
-              project-based learning
+            <h1>
+              Building career pathways in tech through real-world project-based
+              learning
             </h1>
             <div className="max-w-6xl mx-auto">
               <div
@@ -34,15 +36,26 @@ function HeroHome() {
               </div>
             </div>
           </div>
-          <img
-            className="rounded-xl max-w-lg h-1/2 object-cover ml-16 pb-8"
-            src={TeamImage}
-            alt="2 people working together"
-          />
-        </div>
+          <img src={TeamImage} alt="2 people working together" />
+        </Heading>
       </div>
     </section>
   );
 }
 
 export default HeroHome;
+
+const Heading = styled.div`
+  h1 {
+    font-size: 3.6rem;
+    font-weight: 800;
+    line-height: 4.4rem;
+    margin-bottom: 4rem;
+  }
+
+  img {
+    width: 560px;
+    height: auto;
+    margin: 0 -1rem 1rem 0;
+  }
+`;

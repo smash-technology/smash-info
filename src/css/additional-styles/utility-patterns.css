@@ -83,3 +83,11 @@ body {
     font-weight: 500;
     letter-spacing: 1px;
 }
+
+a {
+    transition: all 0.3s;
+}
+
+a:hover {
+    opacity: 0.75;
+}

@@ -24,6 +24,8 @@ function Features() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tab]);
 
+  // transition duration-300 ease-in-out
+
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
