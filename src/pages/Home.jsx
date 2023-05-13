@@ -21,9 +21,9 @@ function Home() {
       <main className="flex-grow">
         {/*  Page sections */}
         <HeroHome />
-        <Testimonials />
         <FeaturesBlocks />
         <FeaturesHome />
+        <Testimonials />
         <Video />
         <Team />
       </main>

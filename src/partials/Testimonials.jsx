@@ -3,20 +3,20 @@ import Alaska from "../images/alaska.png";
 import Amazon from "../images/amazon.png";
 import Boeing from "../images/boeing.png";
 import Microsoft from "../images/msft.png";
+import Nike from "../images/nike.png";
 import NYTimes from "../images/nyt.png";
 import Starbucks from "../images/starbucks.png";
 import Tableau from "../images/tableau.png";
 import Tmobile from "../images/tmobile.jpg";
-import smash from "../images/logo_text.png";
 
 function Testimonials() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:pt-8 md:pb-32">
+        <div className="pt-40">
           {/* Section header */}
           <div
-            className="max-w-3xl mx-auto text-center pb-12 md:pb-16"
+            className="max-w-3xl mx-auto text-center pb-12 md:pb-14"
             data-aos="zoom-y-out"
             data-aos-delay="300"
           >
@@ -35,17 +35,17 @@ function Testimonials() {
             <img
               className="h-12 w-auto aspect-auto mb-12"
               src={Alaska}
-              alt="microsoft logo"
+              alt="alaska airlines logo"
             />
             <img
               className="h-12 w-auto aspect-auto mr-18 mb-12"
               src={Amazon}
-              alt="microsoft logo"
+              alt="amazon logo"
             />
             <img
               className="h-12 w-auto aspect-auto mr-18 mb-12"
               src={Boeing}
-              alt="microsoft logo"
+              alt="boeing logo"
             />
             <img
               className="h-12 w-auto aspect-auto mr-18 mb-12"
@@ -54,39 +54,29 @@ function Testimonials() {
             />
             <img
               className="h-12 w-auto aspect-auto mr-18 mb-12"
+              src={Nike}
+              alt="nike logo"
+            />
+            <img
+              className="h-12 w-auto aspect-auto mr-18 mb-12"
               src={NYTimes}
-              alt="microsoft logo"
+              alt="ny times logo"
             />
             <img
               className="h-12 w-auto aspect-auto mr-18 mb-12"
               src={Starbucks}
-              alt="microsoft logo"
+              alt="starbucks logo"
             />
             <img
               className="h-12 w-auto aspect-auto mr-18 mb-12"
               src={Tableau}
-              alt="microsoft logo"
+              alt="tableau logo"
             />
             <img
               className="h-12 w-auto aspect-auto mr-18 mb-12"
               src={Tmobile}
-              alt="microsoft logo"
+              alt="t-mobile logo"
             />
-          </div>
-
-          <div
-            className="max-w-3xl mx-auto text-center pt-36"
-            data-aos="zoom-y-out"
-            data-aos-delay="300"
-          >
-            <h2 className="text-bold h2 mb-4">Project sponsor</h2>
-            <img className="w-60 mx-auto" src={smash} alt="logo" />
-            <p className="text-lg mt-3 leading-7">
-              &quot;Smash provides in-demand technology skills to a range of
-              learners before they have completed formal schooling, thus
-              enabling them to embark into industry and earn professional wages
-              immediately upon completion.&quot;
-            </p>
           </div>
         </div>
       </div>
