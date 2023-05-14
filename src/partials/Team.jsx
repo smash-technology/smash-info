@@ -9,8 +9,13 @@ import Web from "../images/globe-outline.png";
 
 function Team() {
   return (
-    <section className="max-w-6xl mx-auto mt-40 px-4 sm:px-6">
-      <h2 className="text-bold h2 mb-8">Meet the team</h2>
+    <section className="max-w-6xl mx-auto mt-40 mb-12 px-4 sm:px-6">
+      <h2 className="h2 mb-2">Meet the team</h2>
+      <p className="text-lg leading-7 mb-10">
+        We are undergraduate students at the University of Washington, iSchool
+        who are passionate about breaking down the barriers to tech education
+        and making the tech industry more inclusive!
+      </p>
       <div
         className="grid lg:grid-cols-5 md:grid-cols-3 gap-8 sm:grid-cols-1"
         data-aos="zoom-y-out"

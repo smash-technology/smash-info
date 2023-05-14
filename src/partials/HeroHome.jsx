@@ -13,7 +13,7 @@ function HeroHome() {
       data-aos="zoom-y-out"
       data-aos-delay="300"
     >
-      <div className="max-w-6xl mx-auto mb-96 px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero content */}
         <Heading className="md:pt-12 flex items-center">
           {/* Section header */}
@@ -59,12 +59,13 @@ export default HeroHome;
 
 const Heading = styled.div`
   position: relative;
+  margin-bottom: 26rem;
 
   h1 {
     font-size: 3.4rem;
     font-weight: 700;
     line-height: 4.4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   img {
@@ -75,5 +76,27 @@ const Heading = styled.div`
     height: auto;
     margin: 0 auto;
     z-index: -1;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column !important;
+    margin-bottom: 0;
+
+    h1 {
+      font-size: 2.8rem;
+      line-height: 3.6rem;
+      /* text-align: center; */
+    }
+
+    a {
+    margin: 0 auto;
+  }
+
+    img {
+      position: static;
+      /* top: 22rem;
+      left: 50%;
+      transform: translateX(-50%); */
+    }
   }
 `;
