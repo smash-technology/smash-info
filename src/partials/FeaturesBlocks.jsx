@@ -65,10 +65,10 @@ function FeaturesBlocks() {
               <p className="text-gray-600 text-center">
                 Breaking into tech is notoriously difficult, especially without{" "}
                 <b>a 4-year degree in computer science</b> (or other related
-                tech degrees) or when <b>switching careers</b> from a different
-                field. Attaining a 4-year college degree can cost up to $70,000
-                and learning technology skills costs $38,507 on average,
-                compared to the average $15,715 for other industries.
+                technical degrees) or when <b>switching careers</b> from a
+                different field. Attaining a 4-year college degree can cost up
+                to $70,000 and learning technology skills costs $38,507 on
+                average, compared to the average $15,715 for other industries.
               </p>
             </div>
 
