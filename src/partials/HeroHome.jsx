@@ -5,6 +5,7 @@ import { PrimaryPurple } from "./PrimaryPurple";
 import ArrowEast from "./ArrowEast";
 import styled from "styled-components";
 import smash from "../images/logo_text.png";
+import { PrimaryWhite } from "./PrimaryWhite";
 
 function HeroHome() {
   return (
@@ -26,9 +27,13 @@ function HeroHome() {
               <div className="max-w-6xl sm:max-w-none">
                 <div>
                   <PrimaryPurple href={"/"} role="button">
-                    Visit our website
+                    Visit website
                     <ArrowEast width={18} position={-3.5} stroke={2} />
                   </PrimaryPurple>
+                  <PrimaryWhite href={"/"} role="button">
+                    View prototype
+                    <ArrowEast width={18} position={-3.5} stroke={2} />
+                  </PrimaryWhite>
                 </div>
               </div>
             </div>
@@ -71,7 +76,7 @@ const Heading = styled.div`
   img {
     position: absolute;
     top: 9rem;
-    right: -.85rem;
+    right: -0.85rem;
     width: 820px;
     height: auto;
     margin: 0 auto;
@@ -89,8 +94,8 @@ const Heading = styled.div`
     }
 
     a {
-    margin: 0 auto;
-  }
+      margin: 0 auto;
+    }
 
     img {
       position: static;
