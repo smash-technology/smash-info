@@ -10,9 +10,9 @@ import Web from "../images/globe-outline.png";
 function Team() {
   return (
     <section className="max-w-6xl mx-auto mt-40 px-4 sm:px-6">
-      <h2 className="text-bold h2 mb-6 text-center">Meet the team</h2>
+      <h2 className="text-bold h2 mb-8">Meet the team</h2>
       <div
-        className="flex flex-wrap justify-around"
+        className="grid lg:grid-cols-5 md:grid-cols-3 gap-8 sm:grid-cols-1"
         data-aos="zoom-y-out"
         data-aos-delay="300"
       >
@@ -50,7 +50,7 @@ function Team() {
             >
               <img src={Linkedin} alt="linkedin logo" />
             </a>
-            <a href="/" target="_blank">
+            <a href="https://www.saranyag.com/" target="_blank">
               <img src={Web} alt="globe logo" />
             </a>
           </div>
@@ -89,30 +89,23 @@ function Team() {
 export default Team;
 
 const TeamMember = styled.div`
-  margin-bottom: 3rem;
-
-  &:not(:first-child) {
-    margin-left: 26px;
-  }
-
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 800;
-    margin: 18px 0 0;
-    line-height: 1.85rem;
+    margin: 8px 0 0;
+    line-height: 1.65rem;
   }
 
   img {
     border-radius: 6px;
-    max-width: 280px;
   }
 
   small {
     display: block;
-    margin-bottom: 0.45rem;
+    margin-bottom: 0.4rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 600;
   }
 
@@ -126,6 +119,6 @@ const TeamMember = styled.div`
 
   a img {
     display: inline;
-    width: 26px;
+    width: 24px;
   }
 `;

@@ -28,7 +28,7 @@ function Testimonials() {
 
           {/* Items */}
           <div
-            className="max-w-sm md:max-w-4xl mx-auto flex flex-wrap space-x-8 justify-around"
+            className="max-w-sm md:max-w-4xl mx-auto flex flex-wrap space-x-8 justify-between"
             data-aos="zoom-y-out"
             data-aos-delay="300"
           >
