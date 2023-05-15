@@ -112,13 +112,13 @@ const FeatureStyles = styled.article`
     max-width: 448px;
 
     h2 {
-      font-size: 2.35rem;
+      font-size: 2.2rem;
       font-weight: 700;
       line-height: 2.8rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.2rem;
       text-transform: uppercase;
       letter-spacing: 1px;
-      color: #6175E5;
+      color: #3448b9;
     }
 
     p {

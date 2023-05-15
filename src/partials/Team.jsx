@@ -119,11 +119,11 @@ const TeamMember = styled.div`
   }
 
   a {
-    margin-right: 12px;
+    margin-right: 13px;
   }
 
   a img {
     display: inline;
-    width: 24px;
+    width: 26px;
   }
 `;
