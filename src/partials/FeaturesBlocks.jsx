@@ -12,21 +12,21 @@ function FeaturesBlocks() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto pb-12 md:pb-20 text-center">
             <h2 className="h2 mb-4 text-white">How Smash works</h2>
             <p className="text-xl text-gray-400">
               Smash is revolutionizing the way motivated learners with
-              non-traditional backgrounds attain the skills needed for a lasting
-              career in the tech industry
+              non-traditional backgrounds attain the initial skills and
+              experience needed for a lasting career in the tech industry
             </p>
           </div>
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center px-6 py-8 bg-white rounded shadow-xl">
               <svg
-                className="w-16 h-54 p-1 -mt-1 mb-2"
+                className="w-16 h-54 p-1 -mt-1 mb-4 mx-auto"
                 viewBox="0 0 64 64"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -59,23 +59,26 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-2">
                 Challenge
               </h4>
               <p className="text-gray-600 text-center">
-                Breaking into tech is notoriously difficult, especially without{" "}
-                <b>a 4-year degree in computer science</b> (or other related
-                technical degrees) or when <b>switching careers</b> from a
-                different field. Attaining a 4-year college degree can cost up
-                to $70,000 and learning technology skills costs $38,507 on
-                average, compared to the average $15,715 for other industries.
+                Entering the tech industry is challenging, especially without a
+                traditional four-year technical degree. College degrees can cost
+                up to $70,000 per year, and acquiring technology skills alone
+                amounts to approximately $38,507, 60% more than other
+                industries. Aspiring technologists also face limited resources
+                for building their resume and a lack of networking opportunities
+                with peers, mentors, and potential employers outside of college.
+                These factors pose significant setbacks for individuals aspiring
+                to enter the tech field.
               </p>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center px-6 py-8 bg-white rounded shadow-xl">
               <svg
-                className="w-16 h-54 p-1 -mt-1 mb-2"
+                className="w-16 h-54 p-1 -mt-1 mb-4 mx-auto"
                 viewBox="0 0 64 64"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -98,24 +101,24 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-2">
                 Outcome
               </h4>
               <p className="text-gray-600 text-center">
-                Our platform is a free project-based learning and apprenticeship
-                solution that provides students with valuable hands-on
-                experience, along with career and networking opportunities. By
-                focusing on <b>real-world skills</b> and{" "}
-                <b>industry-relevant projects</b>, our platform offers a unique
-                and immersive learning experience that prepares students for
-                success in their chosen field.
+                Smash is a free project-based learning and apprenticeship
+                solution that equips students with valuable hands-on experience,
+                as well as career and networking opportunities. Through a focus
+                on in-demand technical skills and industry-relevant projects,
+                Smash provides a distinctive and immersive learning experience
+                that effectively prepares students for success in their chosen
+                field.
               </p>
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center px-6 py-8 bg-white rounded shadow-xl">
               <svg
-                className="w-16 h-54 p-1 -mt-1 mb-2"
+                className="w-16 h-54 p-1 -mt-1 mb-4 mx-auto"
                 viewBox="0 0 64 64"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -145,16 +148,19 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-2">
                 Impact
               </h4>
               <p className="text-gray-600 text-center">
-                {" "}
-                In creating a free learning environment with chances for
-                real-world experiences, our solution aims push the boundaries of
-                educational and financial barriers that people, especially those
-                without a college degree or tech background, face when finding
-                job, internship, or apprenticeship opportunities.{" "}
+                Smash revolutionizes the education and recruitment processes,
+                breaking through barriers for students and recruiters alike. It
+                prepares students for the job market through projects from
+                reputable tech companies and fosters networking opportunities.
+                Simultaneously, it serves as a talent pool for recruiters,
+                streamlining the hiring process and ensuring successful
+                placements. By bridging the student-employer gap, our platform
+                creates a mutually beneficial environment, pushing traditional
+                boundaries.
               </p>
             </div>
           </div>

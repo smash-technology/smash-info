@@ -36,7 +36,11 @@ function Header() {
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
-                <PrimaryPurple href={"/"} role="button">
+                <PrimaryPurple
+                  href={"https://smash-technology.vercel.app/"}
+                  target="_blank"
+                  role="button"
+                >
                   Visit our website
                   <ArrowEast width={18} position={-3.5} stroke={2} />
                 </PrimaryPurple>

@@ -26,11 +26,21 @@ function HeroHome() {
             <div className="max-w-6xl mx-auto">
               <div className="max-w-6xl sm:max-w-none">
                 <div>
-                  <PrimaryPurple href={"/"} role="button">
+                  <PrimaryPurple
+                    href={"https://smash-technology.vercel.app/"}
+                    target="_blank"
+                    role="button"
+                  >
                     Visit website
                     <ArrowEast width={18} position={-3.5} stroke={2} />
                   </PrimaryPurple>
-                  <PrimaryWhite href={"/"} role="button">
+                  <PrimaryWhite
+                    href={
+                      "https://www.figma.com/proto/ZaC07tAYTXI3oIa6NeODXe/Prototype?node-id=828-8684&starting-point-node-id=828%3A8684&scaling=scale-down-width&hide-ui=1"
+                    }
+                    target="_blank"
+                    role="button"
+                  >
                     View prototype
                     <ArrowEast width={18} position={-3.5} stroke={2} />
                   </PrimaryWhite>
